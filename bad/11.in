@@ -1,0 +1,4 @@
+int main() {
+    int a = "not int";
+    return 0;
+}

@@ -1,0 +1,5 @@
+// non-boolean value as loop condition
+int main() {
+    while (2 + 2) printString("Ups\n");
+    return 0;
+}

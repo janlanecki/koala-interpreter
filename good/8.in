@@ -1,0 +1,12 @@
+// continue
+int main() {
+    int i = 0;
+    while (i < 5) {
+        i++;
+        continue;
+        break;
+    }
+    printInt(i); // should print 5
+    printString("\n");
+    return 0;
+}

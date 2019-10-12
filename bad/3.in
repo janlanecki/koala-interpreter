@@ -1,0 +1,9 @@
+// wrong number of arguments
+int f(int x) {
+    x++;
+    return x;
+}
+int main() {
+    int x = f();
+    return 0;
+}

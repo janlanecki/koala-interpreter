@@ -1,0 +1,5 @@
+// non-boolean value as if condition
+int main() {
+    if (2 + 2) printString("not good");
+    return 0;
+}

@@ -1,0 +1,13 @@
+// variables, assignment, arithmetic
+// while
+int main () {
+    int i;
+    i = 0;
+    while(i < 10) {
+        if (i % 2 == 0) { printInt(i); printString("\n"); }
+        i++;
+    }
+    printInt(i);
+    printString("\n");
+    return 0;
+}

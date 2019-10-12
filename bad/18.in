@@ -1,0 +1,6 @@
+// trying to increment a string
+int main() {
+    string jeden = "jeden";
+    jeden++;
+    return 0;
+}

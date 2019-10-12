@@ -1,0 +1,7 @@
+// applying arguments in the correct quantity but one is of a wrong type
+void fun(string a, int b) {
+}
+int main() {
+    fun("string", "not int");
+    return 0;
+}

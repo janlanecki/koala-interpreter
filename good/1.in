@@ -1,0 +1,8 @@
+// four types and printing
+void main () {
+    printString("hello world\n");
+    printBool(true);
+    printString("\n");
+    printInt(1);
+    printString("\n");
+}

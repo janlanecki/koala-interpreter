@@ -1,0 +1,21 @@
+void f (int &x) { // pass by reference
+    x = 1;
+}
+
+void g (int x) { // pass by value
+    x = 1;
+}
+
+int main() {
+    int a = 0;
+    f(a);
+    printInt(a); // should print 1
+    printString("\n");
+
+    a = 0;
+    g(a);
+    printInt(a); // should print 0
+    printString("\n");
+
+    return 0;
+}

@@ -1,0 +1,15 @@
+// nested function definitions shadowing with static binding
+int f(int x) {
+    int a = 1;
+    int f (int b) { // shadowing
+        b++;
+        return b;
+    }
+    int r = f(a);
+    r--;
+    return r;
+}
+int main() {
+    printInt(f(1)); // should print 1
+    return 0;
+}

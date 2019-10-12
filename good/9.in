@@ -1,0 +1,7 @@
+// if without else
+// boolean
+int main() {
+    boolean b = true;
+    if (b) printString("Ok\n");
+    return 0;
+}

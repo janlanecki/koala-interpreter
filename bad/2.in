@@ -1,0 +1,7 @@
+// syntax error
+int main() {
+    int .(int x) {
+        return x;
+    }
+    printInt(.(2));
+}

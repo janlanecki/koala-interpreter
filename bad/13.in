@@ -1,0 +1,11 @@
+// trying to return string from an integer generator
+int main() {
+    generator int gen(int a) {
+        int i = 0;
+        while (i < a)
+            yield "not int";
+    }
+
+    printString(gen(3));
+    return 0;
+}

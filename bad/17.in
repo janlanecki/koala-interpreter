@@ -1,0 +1,6 @@
+// trying to assign a value of the wrong type to a variable
+int main() {
+    int a = 1;
+    boolean b = a;
+    return 0;
+}

@@ -1,0 +1,8 @@
+// trying to use a normal function as a generator
+int main() {
+    int f() {
+        return 0;
+    }
+    printInt(next(f));
+    return 0;
+}

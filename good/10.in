@@ -1,0 +1,10 @@
+// operations on strings and everything
+string answer_ultimate_question() {
+    return "forty-two\n";
+}
+
+int main() {
+    string answer = answer_ultimate_question();
+    printString(answer);
+    return 0;
+}

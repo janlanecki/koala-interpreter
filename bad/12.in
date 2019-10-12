@@ -1,0 +1,8 @@
+// trying to return a value from a procedure
+void function(int a) {
+    return a;
+}
+int main() {
+    printInt(function(1));
+    return 0;
+}

@@ -1,0 +1,7 @@
+// conjunction of boolean and int
+int main() {
+    while (true && 2) {
+        printString("ups\n");
+    }
+    return 0;
+}

@@ -1,0 +1,11 @@
+// break
+int main() {
+    int i = 0;
+    while (i < 5) {
+        i++;
+        break;
+    }
+    printInt(i); // should print 1
+    printString("\n");
+    return 0;
+}

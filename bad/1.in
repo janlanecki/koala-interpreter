@@ -1,0 +1,7 @@
+// syntax error
+int main() {
+    generator int g() {
+        yield;
+    }
+    return 0;
+}

@@ -1,0 +1,17 @@
+// generators
+int main() {
+    generator int gen(int count) {
+        int i = 0;
+        while (i < count) {
+            i++;
+            yield i;
+        }
+    }
+
+    printInt(gen(3)); // 1
+    printInt(next(gen)); // 2
+    printInt(next(gen)); // 3
+    // printInt(next(gen)); this would be an error
+    printString("\n");
+    return 0;
+}
